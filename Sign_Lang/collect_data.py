@@ -2,7 +2,7 @@ import cv2
 import os
 
 # CONFIGURATION: Only collecting for 'hello'
-labels = ['not hello']
+labels = ['done']
 base_dir = "dataset"
 
 if not os.path.exists(base_dir):
